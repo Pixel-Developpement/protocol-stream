@@ -1,5 +1,5 @@
 {
-    "name": "niels-nijens/protocol-stream",
+    "name": "pixeldev/protocol-stream",
     "type": "library",
     "description": "A library to create stream wrappers in PHP.",
     "keywords": ["stream", "wrapper"],
@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "php": "^5.4.0 || ^7.0.0"
+        "php": "^7.0.0 || ^8.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -20,6 +20,6 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8",
-        "satooshi/php-coveralls": "^1.0"
+        "php-coveralls/php-coveralls": "^2.5"
     }
 }
